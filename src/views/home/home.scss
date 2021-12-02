@@ -1,0 +1,32 @@
+.clock-view {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: -webkit-center;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 500px;
+    
+    .clock-view-item {
+        width: 50%;
+        margin-bottom: 50px;
+
+        .clock-item-wrapper {
+            width: 200px;
+            margin: auto;
+        }
+    }
+}
+
+.clock-addBtn {
+    text-align: center;
+    padding-bottom: 50px;
+    position: fixed;
+    width: 100px;
+    left: calc(50% - 50px);
+    bottom: 0;
+    button { 
+        padding: 5px 10px;
+    }
+}
